@@ -1,33 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-26T17:54:20 EEST" name="Default suite" finished-at="2024-04-26T17:54:20 EEST" duration-ms="68">
+  <suite started-at="2024-05-08T17:57:59 EEST" name="Default suite" finished-at="2024-05-08T17:58:10 EEST" duration-ms="11053">
     <groups>
     </groups>
-    <test started-at="2024-04-26T17:54:20 EEST" name="Default test" finished-at="2024-04-26T17:54:20 EEST" duration-ms="68">
-      <class name="curs17.TestPriority">
-        <test-method signature="five()[pri:0, instance:curs17.TestPriority@3427b02d]" started-at="2024-04-26T17:54:20 EEST" name="five" finished-at="2024-04-26T17:54:20 EEST" duration-ms="13" status="PASS">
+    <test started-at="2024-05-08T17:57:59 EEST" name="Default test" finished-at="2024-05-08T17:58:10 EEST" duration-ms="11053">
+      <class name="curs19.SeleniumLocators">
+        <test-method is-config="true" signature="setup()[pri:0, instance:curs19.SeleniumLocators@32eff876]" started-at="2024-05-08T17:57:59 EEST" name="setup" finished-at="2024-05-08T17:58:02 EEST" duration-ms="3702" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- five -->
-        <test-method signature="four()[pri:0, instance:curs17.TestPriority@3427b02d]" started-at="2024-04-26T17:54:20 EEST" name="four" finished-at="2024-04-26T17:54:20 EEST" duration-ms="1" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="tagNameLocator()[pri:1, instance:curs19.SeleniumLocators@32eff876]" started-at="2024-05-08T17:58:02 EEST" name="tagNameLocator" finished-at="2024-05-08T17:58:02 EEST" duration-ms="70" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- four -->
-        <test-method signature="one()[pri:0, instance:curs17.TestPriority@3427b02d]" started-at="2024-04-26T17:54:20 EEST" name="one" finished-at="2024-04-26T17:54:20 EEST" duration-ms="1" status="PASS">
+        </test-method> <!-- tagNameLocator -->
+        <test-method signature="linkTextLocator()[pri:2, instance:curs19.SeleniumLocators@32eff876]" started-at="2024-05-08T17:58:02 EEST" name="linkTextLocator" finished-at="2024-05-08T17:58:03 EEST" duration-ms="715" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- one -->
-        <test-method signature="two()[pri:1, instance:curs17.TestPriority@3427b02d]" started-at="2024-04-26T17:54:20 EEST" name="two" finished-at="2024-04-26T17:54:20 EEST" duration-ms="1" status="PASS">
+        </test-method> <!-- linkTextLocator -->
+        <test-method signature="partialLinkTextLocator()[pri:3, instance:curs19.SeleniumLocators@32eff876]" started-at="2024-05-08T17:58:03 EEST" name="partialLinkTextLocator" finished-at="2024-05-08T17:58:04 EEST" duration-ms="1191" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- two -->
-        <test-method signature="three()[pri:2, instance:curs17.TestPriority@3427b02d]" started-at="2024-04-26T17:54:20 EEST" name="three" finished-at="2024-04-26T17:54:20 EEST" duration-ms="2" status="PASS">
+        </test-method> <!-- partialLinkTextLocator -->
+        <test-method signature="classNameLocator()[pri:4, instance:curs19.SeleniumLocators@32eff876]" started-at="2024-05-08T17:58:04 EEST" name="classNameLocator" finished-at="2024-05-08T17:58:04 EEST" duration-ms="92" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- three -->
-      </class> <!-- curs17.TestPriority -->
+        </test-method> <!-- classNameLocator -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:curs19.SeleniumLocators@32eff876]" started-at="2024-05-08T17:58:04 EEST" name="tearDown" finished-at="2024-05-08T17:58:10 EEST" duration-ms="5234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- curs19.SeleniumLocators -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
