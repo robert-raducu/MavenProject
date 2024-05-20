@@ -17,7 +17,7 @@ public class FindLogin extends BaseTest{
 		WebElement loginButton = driver.findElement(By.linkText("Login"));
 		WebElement email = driver.findElement(By.id("log"));
 		WebElement pass = driver.findElement(By.id("password"));
-        assertFalse(email.isDisplayed());
+        assertFalse(email.isDisplayed()); //verifica ca nu apare partea acea de email
         assertFalse(pass.isDisplayed());
 		loginButton.click(); // exista in DOM, dar nu vizibile, deci le pot declara mai sus 
 		//WebElement password = driver.findElement(By.id("password"));
